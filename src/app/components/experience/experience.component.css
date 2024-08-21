@@ -1,0 +1,42 @@
+.experience-container {
+    margin-bottom: 30px;
+  }
+  
+  .experience-heading {
+    font-size: 24px;
+    color: #b64645;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .experience-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .job-subtitle {
+    font-size: 14px;
+    color: #777;
+  }
+  

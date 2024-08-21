@@ -1,0 +1,10 @@
+<button mat-button (click)="toggleHobbies()">
+  {{ showHobbies ? "Hide" : "Show" }} Hobbies
+</button>
+<mat-card *ngIf="showHobbies">
+  <mat-card-content>
+    <ul>
+      <li *ngFor="let hobby of hobbies">{{ hobby }}</li>
+    </ul>
+  </mat-card-content>
+</mat-card>

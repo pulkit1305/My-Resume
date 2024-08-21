@@ -1,0 +1,16 @@
+<div class="experience-container">
+  <h2 class="experience-heading">Experience</h2>
+  <div class="experience-list">
+    <mat-card
+      class="experience-card"
+      *ngFor="let job of jobs"
+      (click)="openJobDetails(job)"
+    >
+      <mat-card-title class="job-title">{{ job.title }}</mat-card-title>
+      <mat-card-subtitle class="job-subtitle">
+        {{ job.company }} - {{ job.dates }}
+      </mat-card-subtitle>
+    </mat-card>
+  </div>
+</div>
+    

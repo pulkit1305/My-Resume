@@ -1,0 +1,18 @@
+.section-title {
+    font-size: 24px;
+    color: #b64645;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.contact a {
+    color: inherit; /* Inherit the text color from the parent element */
+    text-decoration: none; /* Remove the underline */
+    font-weight: normal; /* Ensure the font weight is normal */
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover for better UX */
+}

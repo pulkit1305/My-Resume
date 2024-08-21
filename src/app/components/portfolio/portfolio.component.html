@@ -1,0 +1,16 @@
+<div class="portfolio-container">
+  <h2 class="portfolio-heading">Projects</h2>
+  <mat-grid-list cols="2" rowHeight="300px" gutterSize="16px">
+    <mat-grid-tile
+      *ngFor="let project of projects"
+      (click)="openDialog(project)"
+    >
+      <div class="tile-content">
+        <img [src]="project.image" alt="Project Image" class="project-image" />
+        <div class="tile-footer">
+          <h3>{{ project.name }}</h3>
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

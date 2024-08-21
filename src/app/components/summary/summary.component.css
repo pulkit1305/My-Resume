@@ -1,0 +1,21 @@
+.summary-container {
+    margin-bottom: 30px;
+  }
+  
+  .summary-heading {
+    font-size: 24px;
+    color: #b64645;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+ 
+  
+  .summary-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  

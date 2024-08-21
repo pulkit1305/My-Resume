@@ -1,0 +1,19 @@
+<div class="skills">
+  <h3 class="section-title">Skills</h3>
+  <div class="skill-list">
+    <div
+      *ngFor="let skill of skills"
+      class="skill-item"
+      (mouseover)="showRating(skill)"
+      (mouseleave)="hideRating(skill)"
+      (click)="toggleRating(skill)"
+    >
+      <span class="skill-name">{{ skill.name }}</span>
+      <div class="skill-rating" *ngIf="skill.showRating">
+        <mat-icon *ngFor="let star of [].constructor(skill.rating)"
+          >star</mat-icon
+        >
+      </div>
+    </div>
+  </div>
+</div>

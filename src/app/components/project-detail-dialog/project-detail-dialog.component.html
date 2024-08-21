@@ -1,0 +1,9 @@
+<h2 mat-dialog-title>{{ data.name }}</h2>
+<mat-dialog-content>
+  <img [src]="data.image" alt="Project Image" class="dialog-image">
+  <p>{{ data.description }}</p>
+  <p><strong>Tech Stack:</strong> {{ data.techStack }}</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onClose()">Close</button>
+</mat-dialog-actions>

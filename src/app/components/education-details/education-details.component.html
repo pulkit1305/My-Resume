@@ -1,0 +1,10 @@
+<h2 mat-dialog-title>{{ data.degree }}</h2>
+<mat-dialog-content>
+  <p><strong>Institution:</strong> {{ data.institution }}</p>
+  <p><strong>Graduation Date:</strong> {{ data.graduationDate }}</p>
+  <p><strong>Grade:</strong> {{ data.grade | number : "1.1-1" }}</p>
+  <p><strong>Description:</strong> {{ data.description }}</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onClose()">Close</button>
+</mat-dialog-actions>
